@@ -1,4 +1,4 @@
-import 'package:bloc_sample_project/bloc/bloc_weather_view.dart';
+import 'package:bloc_sample_project/pages/bloc_weather_view.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
