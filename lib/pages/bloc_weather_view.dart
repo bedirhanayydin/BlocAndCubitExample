@@ -52,7 +52,7 @@ class _BlocWeatherViewState extends State<BlocWeatherView> {
                 ),
               );
             } else if (state is WeatherLoaded) {
-              return Text(state.weather[0].cityName);
+              return Center(child: Text(state.weather[0].cityName));
             } else {
               final error = state as WeatherError;
               return Center(
